@@ -1,0 +1,89 @@
+:root{
+    --main-color: #2196f3;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+
+.body{
+    width: 500px;
+    height: 650px;
+    margin: 150px auto;
+    background-color: var(--main-color);
+    padding: 50px;
+    border-radius: 10px;
+}
+.card{
+    height: 100%;
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+}
+.card h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.body .card form{
+    padding: 20px;
+    height: 70%;
+    border-bottom: 1px dashed #4444445c;
+}
+.body .card div{
+    position: relative;
+}
+.body .card div i{
+    position: absolute;
+    bottom: 18px;
+    left: 5px;
+    color: #757575;
+}
+.body .card div input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #4444445c;
+    padding: 15px;
+    padding-left: 30px;
+}
+input #name::before{
+    content: "maher";
+}
+
+.body .card input:nth-child(5){
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.body .card form .text{
+    text-align: center;
+    margin: 25px;
+}
+.text span{
+    color: var(--main-color);
+    padding-left: 2px;
+    cursor: pointer;
+}
+.card h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: #444;
+    margin: 12px;
+}
+.card .img img{
+    width: 48px;
+    border-radius: 50%;
+}
